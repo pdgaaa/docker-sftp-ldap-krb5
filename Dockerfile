@@ -1,5 +1,5 @@
 FROM debian:stretch
-MAINTAINER Pierre-Damien Gatouillat <pierredamien.gatouillat@externe.e-i.com>
+MAINTAINER Pierre-Damien Gatouillat <pdg@gatouillat.net>
 
 ENV SFTP_CHROOT=/data
 
