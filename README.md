@@ -1,5 +1,5 @@
 # docker-sftp-ldap-krb5
-A mix between https://hub.docker.com/r/turgon37/sftp-ldap and https://hub.docker.com/r/phihos/sssd-krb5-ldap
+A mix between https://hub.docker.com/r/turgon37/sftp-ldap and https://hub.docker.com/r/phihos/sssd-krb5-ldap, thanks to them !
 
 ```
 docker run --name sftp-ldap --env-file ./.env -p 22222:22 -v "/home/user/foo:/data/foo:rw" elyout/sftp-ldap-krb5:latest
