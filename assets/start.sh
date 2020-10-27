@@ -55,7 +55,7 @@ reconnection_retries = 3
 domains = ${KERBEROS_REALM}
 
 [nss]
-override_homedir = /config-repo
+override_homedir = /foo
 homedir_substring = /data
 memcache_timeout = 600
 
